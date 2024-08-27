@@ -95,7 +95,7 @@ body {
       margin-bottom: 50px;
       font-family: $regular;
       font-weight: 400;
-      font-size: 19px;
+      font-size: 15px;
       text-align: center;
       color: #000;
       transition: all 0.2s ease-in-out;
@@ -104,7 +104,7 @@ body {
         display: block;
         margin-bottom: 50px;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 0.2em;
         text-transform: uppercase;
         text-align: center;
@@ -164,7 +164,7 @@ body {
       margin-bottom: 50px;
       font-family: $regular;
       font-weight: 400;
-      font-size: 19px;
+      font-size: 15px;
       text-align: center;
     }
 
@@ -340,7 +340,7 @@ body {
     &__title {
       &--red {
         font-weight: 600;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 0.2em;
         text-transform: uppercase;
         text-align: center;
@@ -613,7 +613,7 @@ body {
 
     .es-title {
       margin-bottom: 50px;
-      font-size: 30px;
+      font-size: 25px;
       text-align: center;
     }
   }
@@ -686,6 +686,23 @@ body {
   @media screen and (min-width: 925px) {
   }
   @media screen and (min-width: 1024px) {
+    .es-banner {
+      &__description {
+        font-size: 19px;
+      }
+    }
+
+    .es-category__item-title,
+    .es-banner__description--red,
+    .es-video__title--red {
+      font-size: 30px;
+    }
+
+    .es-category {
+      &__item-text {
+        font-size: 19px;
+      }
+    }
   }
   @media screen and (min-width: 1200px) {
     .es-cross {

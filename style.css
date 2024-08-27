@@ -71,7 +71,7 @@ body {
   margin-bottom: 50px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 15px;
   text-align: center;
   color: #000;
   transition: all 0.2s ease-in-out;
@@ -80,7 +80,7 @@ body {
   display: block;
   margin-bottom: 50px;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
@@ -132,7 +132,7 @@ body {
   margin-bottom: 50px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 15px;
   text-align: center;
 }
 #es-prada.es-prada .es-category__item-link {
@@ -318,7 +318,7 @@ body {
 }
 #es-prada.es-prada .es-video__title--red {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
@@ -529,7 +529,7 @@ body {
   }
   #es-prada.es-prada .es-title {
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
 }
@@ -581,6 +581,19 @@ body {
   }
   #es-prada.es-prada .es-banner__image--logo {
     margin-bottom: 80px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #es-prada.es-prada .es-banner__description {
+    font-size: 19px;
+  }
+  #es-prada.es-prada .es-category__item-title,
+  #es-prada.es-prada .es-banner__description--red,
+  #es-prada.es-prada .es-video__title--red {
+    font-size: 30px;
+  }
+  #es-prada.es-prada .es-category__item-text {
+    font-size: 19px;
   }
 }
 @media screen and (min-width: 1200px) {
